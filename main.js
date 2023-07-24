@@ -17,11 +17,11 @@
 const axios = require('axios');
 const fs = require("fs");
 const apiEndpoint = 'https://api.openai.com/v1/chat/completions';
-const apiKey = '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';
+const apiKey = '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';
 
 const prompts = [
     {
-      prompt: 'Generate the csv file for 3  employees for june month (30 days) and Marked the Weekend (Saturday and Sunday as 0) having Employee ID as (EMP001,...),Date,Day,Time-in,Time-out,Total Hours Worked',
+      prompt: 'Generate the csv file for 3  employees for june month (30 days) and Marked the Weekend (Saturday and Sunday as 0) having Employee ID as (EMP001,...),Date (DD-MM-YYYY),Day,Time-in (8AM - 10AM),Time-out (5PM-8PM),Total Hours Worked(Hrs)',
       filename:'emp_att_june.csv'
     },
     {
@@ -29,7 +29,7 @@ const prompts = [
       filename:'emp_leave.csv',
     },
     {
-      prompt: 'Generate the csv file for National holidays(as per India calendar)having Date,Day,Holiday Name,Type(Public)',
+      prompt: 'Generate the csv file for National holidays(as per India calendar)having Date as (DD-MM-YYYY),Day,Holiday Name,Type(Public)',
       filename:'emp_holiday.csv',
     },
     {
