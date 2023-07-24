@@ -1,0 +1,6 @@
+Employee ID,Employee Name,Leave Type,Start Date,End Date,Leave Duration,Leave Status
+EMP001,John Doe,Half Day,2021-06-01,2021-06-01,0.5,Approved
+EMP002,Jane Smith,Full Day,2021-06-05,2021-06-05,1,Rejected
+EMP003,Michael Johnson,Half Day,2021-06-10,2021-06-10,0.5,Approved
+EMP004,Sarah Williams,Full Day,2021-06-15,2021-06-15,1,Approved
+EMP005,Robert Brown,Half Day,2021-06-20,2021-06-20,0.5,Rejected
